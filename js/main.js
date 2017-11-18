@@ -152,7 +152,7 @@ $('#form3').on('submit', function() {
 		resizedDiv.height(window_H - 140);
 	});
 	$(window).trigger('resize');
-/*
+
      $('.index-top-screen').bind('mousewheel', function(e){
         if(e.originalEvent.wheelDelta /120 < 0) {
             console.log("scrolling")
@@ -166,7 +166,7 @@ $('#form3').on('submit', function() {
             return false;
         }
     });
-	*/
+	
 
 	//layer slider
 	if ( $( ".top-index-slider" ).length ) {
